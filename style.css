@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.sidebar{
+    background-color: rgb(42, 202, 255);
+    width: 250px;
+    height: 1000px;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.sidebox{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 25px;
+    border: 2px solid rgb(2, 2, 157);
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    line-height: 40px;
+}
+
+.sb-admin {
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    color:white ;
+}
+
+.sidebar hr{
+    width: 210px;
+    border: 0.5px solid rgb(255, 255, 255);
+    margin: 20px auto; 
+    clear: both;
+}
+
+.sb1{
+    background-color: rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: 2px solid rgb(2, 2, 157);
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    line-height: 25px;
+}
+
+.sidebar p, .sidebar h3 {
+    margin-left: 50px;
+    padding: 10px;
+    line-height: 30px; 
+}
+
+.sidebar h3 {
+    font-size: 1rem;
+    color: white;
+    margin-left: 10px;
+}
+
+.sidebar p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.tabbar{
+    width: 2000px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.329)
+}
+
+.searchbox{
+    background-color: rgb(237, 234, 234);
+    float: left;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.searchbox p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(73, 73, 73) ;
+}
+
+.sb2{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 50px;
+
+}
+
+.sb3{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+
+.sb4{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.text{
+    float:  right;
+    padding: 30px;
+}
+
+.htext{
+    margin-top: 30px;
+}
+
+.htbox{
+    background-color: rgb(42, 202, 255);
+    float: right;
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.htbox p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.boxtext{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.329);
+    border-left: 5px solid rgb(42, 202, 255);;
+}
+
+.line {
+    float: right;
+    margin-top: 9px;
+    margin-right: 25px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.26)
+}
+
+.boxtext p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.boxtext2 {
+    float: left;
+    width: 1000px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.329);
+    padding: 20px;
+}
+
+.boxtext3 {
+    float: left;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.329);
+    padding: 20px;
+}
+
+.boxtext2 ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 20px;
+}
+
